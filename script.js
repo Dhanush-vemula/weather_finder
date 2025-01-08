@@ -1,17 +1,17 @@
-async function getGeolocation(){
+function getGeolocation(){
     const latitudeIn = document.getElementById('latitude');
     const longitudeIn = document.getElementById('longitude')
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition((position)=>{
             latitudeIn.value = position.coords.latitude;
             longitudeIn.value = position.coords.longitude;
+            fetchWeatherData();
         },(error)=>{
             alert("Can't able to fetch location");
         });
     }else{
         alert("Geolocation Not Available");
     }
-    fetchWeatherData()
 }
 async function fetchWeatherData() {
     const latitudeInput = document.getElementById('latitude');
