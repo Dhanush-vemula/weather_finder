@@ -1,0 +1,63 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://wallpaperaccess.com/full/2548059.jpg'); /* Replace with the URL of your cloudy picture */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      width: 100%;  
+      margin: 20px;
+      text-align: center;
+      padding: 40px;
+      background-color: rgba(0, 0, 0, 0.7); /* Set the background color to transparent black */
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Enhance the shadow for a more "fulfilled" look */
+    }
+
+    h1 {
+      font-size: 28px; /* Increase font size for better visibility */
+      color: white; /* Set the text color to white for better contrast */
+      margin-bottom: 20px; /* Add margin to space out elements */
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px; /* Add margin at the bottom for spacing */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px; /* Increase font size for better visibility */
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .weather-info {
+      margin-top: 30px;
+      color: white; /* Set the text color to white for better contrast */
+      font-size: 18px; /* Increase font size for better readability */
+    }
+
+    label {
+      color: white; /* Set the text color to white */
+      font-size: 16px; /* Add font size to labels */
+      display: block;
+      margin: 10px 0 5px; /* Add spacing around labels */
+    }
